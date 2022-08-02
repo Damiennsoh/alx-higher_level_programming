@@ -1,104 +1,51 @@
-# 0x08. Python - More Classes and Objects
+<h1 align="center">Holberton School Higher-Level Programming</h1>
+This repository stores my solutions to the amazing high-level programming projects I did at the Holberton Campus, most projects are written in Python programming language, but some projects contain something in C and SQL programming language.
 
-![image](src/R.jfif)
+---
 
-In this project, I continued to practice object-oriented programming in Python.
-I learned about class methods, static methods, class vs instance attributes, and
-how to use the special `__str__` and `__repr__` methods.
+<p align="center">
+<a target="_blank" href="https://www.holbertonschool.com/"><img src="https://github.com/monoprosito/holbertonschool-higher_level_programming/blob/master/holby.jpg?raw=true"></a>
+</p>
 
-## Tests :heavy_check_mark:
+---
 
-* [tests](./tests): Folder of test files. Provided by Holberton School.
+## Table of contents
+- [Requirements](#requirements)
+- [Projects](#projects)
+- [Usage](#usage)
+- [Contributors](#contributors)
 
-## Tasks :page_with_curl:
+## Requirements
 
-* **0. Simple rectangle**
-  * [0-rectangle.py](./0-rectangle.py): Empty Python class that defines a rectangle.
+The Python scripts were built with **Python 3.4.3**.
 
-* **1. Real definition of a rectangle**
-  * [1-rectangle.py](./1-rectangle.py): Python class that defines a rectangle. Builds on
-  [0-rectangle.py](./0-rectangle.py) with:
-    * Private instance attribute `width`.
-    * Property getter `def width(self):` to get `width`.
-    * Property setter `def width(self, value):` to set `width`.
-    * Private instance attribute `height`.
-    * Property getter `def height(self):` to get `height`.
-    * Property setter `def height(self, value):` to set `height`.
-    * Instantiation with optional `width` and `height`: `def __init(self,
-    width=0, height=0):`
-  * If either of `width` or `height` is not an integer, a `TypeError` is
-  raised with the message `width must be an integer` or `height must be an integer`.
-  * If either of `width` or `height` is less than `0`, a `ValueError` is
-  raised with the message `width must be >= 0` or `height must be >= 0`.
+Some scripts need more specific requirements, but these will be shown where they are needed.
 
-* **2. Area and Perimeter**
-  * [2-rectangle.py](./2-rectangle.py): Python class that defines a rectangle. Builds on
-  [1-rectangle.py](./1-rectangle.py) with:
-    * Public instance method `def area(self):` that returns the area of
-    the rectangle.
-    * Public instance attribute `def perimeter(self):` that returns the
-    permiter of the rectangle (if either of `width` or `height` equals `0`, the
-    perimeter is `0`).
+## Projects
+Here is the complete list of projects in this repository, each project has its description in its respective folder.
 
-* **3. String representation**
-  * [3-rectangle.py](./3-rectangle.py): Python class that defines a rectangle. Builds on
-  [2-rectangle.py](./2-rectangle.py) with:
-    * Special method `__str__` to print the rectangle with the `#` character
-    (if either of `width` or `height` equals `0`, the method returns an empty
-    string.).
+* [0x00. Python - Hello, World](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x00-python-hello_world)
+* [0x01. Python - if/else, loops, functions](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x01-python-if_else_loops_functions)
+* [0x02. Python - import & modules](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x02-python-import_modules)
+* [0x03. Python - Data Structures: Lists, Tuples](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x03-python-data_structures)
+* [0x04. Python - More Data Structures: Set, Dictionary](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x04-python-more_data_structures)
+* [0x05. Python - Exceptions](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x05-python-exceptions)
+* [0x06. Python - Classes and Objects](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x06-python-classes)
+* [0x07. Python - Test-driven development](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x07-python-test_driven_development)
+* [0x08. Python - More Classes and Objects](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x08-python-more_classes)
+* [0x09. Python - Everything is object](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x09-python-everything_is_object)
+* [0x0A. Python - Inheritance](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x0A-python-inheritance)
+* [0x0B. Python - Input/Output](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x0B-python-input_output)
+* [0x0C. Python - Almost a circle](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x0C-python-almost_a_circle)
+* [0x0D. SQL - Introduction](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x0D-SQL_introduction)
+* [0x0E. SQL - More queries](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x0E-SQL_more_queries)
+* [0x0F. Python - Object-relational mapping](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x0F-python-object_relational_mapping)
+* [0x10. Python - Network #0](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x10-python-network_0)
+* [0x11. Python - Network #1](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x11-python-network_1)
+* [0x12. Javascript - Warm up](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x12-javascript-warm_up)
+* [0x13. Javascript - Objects, Scopes and Closures](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x13-javascript_objects_scopes_closures)
+* [0x14. Javascript - Web scraping](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x14-javascript-web_scraping)
+* [0x15. Javascript - Web JQuery](https://github.com/monoprosito/holbertonschool-higher_level_programming/tree/master/0x15-javascript-web_jquery)
 
-* **4. Eval is magic**
-  * [4-rectangle.py](./4-rectangle.py): Python class that defines a rectangle. Builds on
-  [3-rectangle.py](./3-rectangle.py) with:
-    * Special method `__repr__` to return a string representation of the
-    rectangle.
-
-* **5. Detect instance deletion**
-  * [5-rectangle.py](./5-rectangle.py): Python class that defines a rectangle. Builds on
-  [4-rectangle.py](./4-rectangle.py) with:
-    * Special method `__del__` that prints the message `Bye rectangle...`
-    when a `Rectangle` is deleted.
-
-* **6. How many instances**
-  * [6-rectangle.py](./6-rectangle.py): Python class that defines a rectangle. Builds on
-  [5-rectangle.py](./5-rectangle.py) with:
-    * Public class attribute `number_of_instances` that is initialized to `0`,
-    incremented for each new instantiation, and decremened for each instance deletion.
-
-* **7. Change representation**
-  * [7-rectangle.py](./7-rectangle.py): Python class that defines a rectangle. Builds on
-  [6-rectangle.py](./6-rectangle.py) with:
-    * Public class attribute `class_symbol` that is initialized to `#` but can
-    be any type - used as the symbol for string representation.
-
-* **8. Compare rectangles**
-  * [8-rectangle.py](./8-rectangle.py): Python class that defines a rectangle. Builds on
-  [7-rectangle.py](./7-rectangle.py) with:
-    * Static method `def bigger_or_equal(rect_1, rect_2):` that returns the
-    rectangle with the greater area (returns `rect_1` if both areas are equal).
-    * If either of `rect_1` or `rect_2` is not a `Rectangle` instance, a
-    `TypeError` is raised with the message `rect_1 must be an instance of
-    Rectangle` or `rect_2 must be an instance of Rectangle`.
-
-* **9. A square is a rectangle**
-  * [9-rectangle.py](./9-rectangle.py): Python class that defines a rectangle. Builds on
-  [8-rectangle.py](./8-rectangle.py) with:
-    * Class method `def square(cls, size=0):` that returns a new `Rectangle`
-    instance with `width == height == size`.
-
-* **10. N Queens**
-  * [101-nqueens.py](./101-nqueens.py): Python program that solves the [N queens puzzle](https://en.wikipedia.org/wiki/Eight_queens_puzzle).
-  * Usage: `./101-nqueens.py N`
-  * Determines all possible solutions for placing N non-attacking queens on an
-  NxN chessboard.
-  * Exactly two arguments must be provided. Otherwise, the program prints
-  `Usage: nqueens N` and exits with the status `1`.
-  * If the provided `N` is not an integer, the program prints `N must be a
-  number` and exits with the status `1`.
-  * If the provided `N` is less than `4`, the program prints `N must be at least
-  4` and exits with the status `1`.
-  * Solutions are printed one per line in the format `[[r, c], [r, c], [r, c],
-  [r, c]]` where `r` and `c` represent the row and column, respectively, where a
-  queen must be placed.
-
-
+## Usage
+Each project and task contains the instructions to compile the code and execute the results.
