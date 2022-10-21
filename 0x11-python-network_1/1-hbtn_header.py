@@ -14,3 +14,4 @@ if __name__ == "__main__":
     with urlopen(req) as res:
         headers = res.info()
         print(headers.get('X-Request-Id'))
+        

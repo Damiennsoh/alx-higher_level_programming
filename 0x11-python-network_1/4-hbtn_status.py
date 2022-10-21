@@ -12,3 +12,4 @@ if __name__ == "__main__":
     print('Body response:')
     print('\t- type: {_type}'.format(_type=type(req.text)))
     print('\t- content: {_content}'.format(_content=req.text))
+
